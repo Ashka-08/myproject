@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<h1>{{ title }}</h1>    
+<table>
+    {% for product, date in purchases.items %}
+    <tr>
+        <td> ID: {{ product.pk }} </td>
+        <td> {{ product.name }} </td>
+        <td> Цена: {{ product.price }} </td>
+        <td> Заказан: {{ date }} </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
+{% block footer %}
+    {{ title }}
+{% endblock footer %}

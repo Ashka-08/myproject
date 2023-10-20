@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/stylesheet.css' %}" rel="stylesheet" type="text/css"/>
+    <title>{% block title %}Домашние задания по курсу Django{% endblock %}</title>
+    <style>
+        .navigation {
+            background-image: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url("{% static 'images/header.jpeg' %}");
+        }
+    </style>
+</head>
+<body>
+    <div class="fon">
+        <div class="navigation">
+            <a href="http://127.0.0.1:8000/hw1/" class="nav_item w-inline-block">
+                <img src="{% static 'images/icon.png' %}" alt="Иконка" class="icon"/>
+                <div>ДЗ 1</div>
+            </a>
+            <a href="http://127.0.0.1:8000/hw2/" class="nav_item w-inline-block">
+                <img src="{% static 'images/icon.png' %}" alt="Иконка" class="icon"/>
+                <div>ДЗ 2</div>
+            </a>
+            <a href="http://127.0.0.1:8000/hw3/" class="nav_item w-inline-block">
+                <img src="{% static 'images/icon.png' %}" alt="Иконка" class="icon"/>
+                <div>ДЗ 3</div>
+            </a>
+            <a href="http://127.0.0.1:8000/hw4/" class="nav_item w-inline-block">
+                <img src="{% static 'images/icon.png' %}" alt="Иконка" class="icon"/>
+                <div>ДЗ 4</div>
+            </a>
+        </div>
+        <div class="content_box">
+            {% block content %}
+            Скоро здесь что-нибудь появится...
+            {% endblock %}
+        </div>
+        <div class="footer_box">
+            {% block footer %}
+                Шаблон проекта
+            {% endblock footer %}
+            <div class="center">
+                <p>@ 
+                    <a href="https://t.me/Liubov_Marvanova" target="_blank" class="w_link">
+                        Марванова Любовь Дмитриевна
+                    </a>
+                    - 2023
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

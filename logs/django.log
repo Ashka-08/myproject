@@ -1,0 +1,53 @@
+INFO 2023-09-29 20:27:08,020 autoreload 6936 5276 Watching for file changes with StatReloader
+INFO 2023-09-29 20:27:37,434 autoreload 6936 5276 C:\Users\Professional\Desktop\geekbrains\Django\homeworks\hw1_project\hw1_app\views.py changed, reloading.
+INFO 2023-09-29 20:27:38,188 autoreload 10856 10076 Watching for file changes with StatReloader
+INFO 2023-09-29 20:27:57,481 autoreload 10856 10076 C:\Users\Professional\Desktop\geekbrains\Django\homeworks\hw1_project\hw1_app\views.py changed, reloading.
+INFO 2023-09-29 20:27:58,233 autoreload 15040 14264 Watching for file changes with StatReloader
+INFO 2023-09-29 20:28:15,255 autoreload 15040 14264 C:\Users\Professional\Desktop\geekbrains\Django\homeworks\hw1_project\hw1_app\views.py changed, reloading.
+INFO 2023-09-29 20:28:15,884 autoreload 960 10680 Watching for file changes with StatReloader
+INFO 2023-09-29 20:28:43,037 basehttp 960 2104 "GET / HTTP/1.1" 200 681
+INFO 2023-09-29 20:28:44,475 basehttp 960 2104 "GET /about/ HTTP/1.1" 200 766
+INFO 2023-09-29 20:28:45,831 basehttp 960 2104 "GET / HTTP/1.1" 200 681
+INFO 2023-09-29 20:28:46,867 basehttp 960 2104 "GET /about/ HTTP/1.1" 200 766
+INFO 2023-10-04 13:13:46,376 views 13092 4824 Index page accessed
+INFO 2023-10-04 13:13:51,586 views 13092 4824 <WSGIRequest: GET '/hw2/users/'> request received
+INFO 2023-10-04 13:17:01,759 views 11124 4340 Index page accessed
+INFO 2023-10-04 13:17:03,057 views 11124 4340 <WSGIRequest: GET '/hw2/users/'> request received
+INFO 2023-10-04 16:18:04,622 views 12468 11684 Index page accessed
+INFO 2023-10-04 16:18:06,915 views 12468 11684 <WSGIRequest: GET '/hw2/users/'> request received
+INFO 2023-10-04 17:03:43,176 views 12152 7460 <WSGIRequest: GET '/hw2/users/'> request received
+INFO 2023-10-04 17:03:50,777 views 12152 7460 <WSGIRequest: GET '/hw2/orders/'> request received
+INFO 2023-10-04 17:03:56,020 views 12152 7460 <WSGIRequest: GET '/hw2/products/'> request received
+INFO 2023-10-04 17:04:01,088 views 12152 7460 <WSGIRequest: GET '/hw2/orders/'> request received
+INFO 2023-10-04 17:12:31,042 views 9292 10140 Index page accessed
+INFO 2023-10-04 17:12:33,095 views 9292 10140 <WSGIRequest: GET '/hw2/orders/'> request received
+INFO 2023-10-04 17:12:41,139 views 9292 10140 <WSGIRequest: GET '/hw2/products/'> request received
+INFO 2023-10-09 16:11:51,077 views 2520 12232 Index page accessed
+INFO 2023-10-09 16:11:54,094 views 2520 12232 <WSGIRequest: GET '/hw2/orders/'> request received
+INFO 2023-10-09 16:11:56,963 views 2520 12232 <WSGIRequest: GET '/hw2/products/'> request received
+INFO 2023-10-09 16:11:58,994 views 2520 12232 <WSGIRequest: GET '/hw2/users/'> request received
+INFO 2023-10-09 16:12:10,306 views 2520 12232 <WSGIRequest: GET '/hw2/products/'> request received
+INFO 2023-10-09 16:12:18,529 views 2520 12232 <WSGIRequest: GET '/hw2/orders/'> request received
+INFO 2023-10-09 18:16:42,144 views 11648 12580 Index page accessed
+INFO 2023-10-09 21:14:04,986 views 11648 216 Index page accessed
+INFO 2023-10-09 21:53:45,262 views 636 2256 Index page accessed
+INFO 2023-10-09 21:53:47,300 views 636 2256 Index page accessed
+INFO 2023-10-09 21:53:49,958 views 636 2256 Index page accessed
+INFO 2023-10-09 21:53:56,095 views 636 2256 Index page accessed
+INFO 2023-10-09 21:53:57,945 views 636 2256 Index page accessed
+INFO 2023-10-09 21:54:01,815 views 636 2256 Index page accessed
+INFO 2023-10-09 21:54:03,319 views 636 2256 Index page accessed
+INFO 2023-10-09 21:58:36,547 views 8416 700 Index page accessed
+INFO 2023-10-09 21:58:38,352 views 8416 700 Index page accessed
+INFO 2023-10-09 21:58:41,659 views 8416 700 Index page accessed
+INFO 2023-10-09 21:59:39,004 views 8416 700 Index page accessed
+INFO 2023-10-09 21:59:41,307 views 8416 700 Index page accessed
+INFO 2023-10-09 22:00:47,756 views 6268 636 Index page accessed
+INFO 2023-10-09 22:31:33,831 views 2876 3652 Index page accessed
+INFO 2023-10-10 12:34:50,491 views 13580 9388 Index page accessed
+INFO 2023-10-10 19:31:32,831 views 4736 9244 Index page accessed
+INFO 2023-10-12 10:22:36,040 views 1928 6660 Index page accessed
+INFO 2023-10-12 10:22:38,584 views 1928 6660 Index page accessed
+INFO 2023-10-12 10:22:40,141 views 1928 6660 Index page accessed
+INFO 2023-10-20 15:55:25,332 views 2496 14312 Index page accessed
+INFO 2023-10-20 15:55:27,379 views 2496 14312 Index page accessed
